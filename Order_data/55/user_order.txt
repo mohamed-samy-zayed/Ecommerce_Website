@@ -1,0 +1,36 @@
+Real User INFO: 
+	Date and Time: 2024-01-21 21:10:06
+	User Real ID From Session: 55
+	User Real Name From Session: Mohamed Gamil
+	User Real Email From Session: mmm845162@gmail.com
+
+User Order Information: 
+	Username: Mohamed Gamil
+	Phone Number: 01208596572
+	Location: rewda city
+
+Number of Products: 2
+
+Total Price: [ $3110 ]
+
+Delivery Price: [ $30 ]
+
+Final Price: [ $3140 ]
+
+Product 1 Information:
+	Product Database: computers
+	Product Table: monitors
+	Product ID: 14
+	Size: undefined
+	Color: black
+	Count: 3
+	Product Link : http://localhost/all/project/ecommerce/detail.php?id=14&category=monitors&kind=computers&size=undefined&color=black&quantity=3
+
+Product 2 Information:
+	Product Database: men
+	Product Table: shoes
+	Product ID: 2
+	Size: 42
+	Color: white
+	Count: 2
+	Product Link : http://localhost/all/project/ecommerce/detail.php?id=2&category=shoes&kind=men&size=42&color=white&quantity=2

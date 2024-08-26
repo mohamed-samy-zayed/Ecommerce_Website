@@ -1,0 +1,11 @@
+Real User INFO: 
+	Date and Time: 2023-12-09 20:32:59
+	User Real ID From Session: 36
+	User Real Name From Session: mohamed
+	User Real Email From Session: mq@gmail.com
+
+User Message: 
+	Name: 
+	Email: 
+	Message:
+	

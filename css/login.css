@@ -1,0 +1,106 @@
+#website_name {
+    color: rgb(251, 202, 53);
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#E {
+    color: rgb(251, 202, 53);
+    background-color: #3d464d;
+    padding: 5px;
+}
+#C {
+    color: #3d464d;
+    background-color: rgb(251, 202, 53);
+    padding: 5px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../../IMGS/bg4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.links {
+    font-size: 13px;
+    color: black;
+    padding-bottom: 10px;
+    text-decoration-line: none;
+    display: inline-flex;
+    width: fit-content;
+}
+
+#reset {
+    padding-left: 30px;
+}
+
+#reset:hover {
+    opacity: .8;
+}
+
+#sign {
+    padding-left: 90px;
+}
+
+#sign:hover {
+    opacity: .8;
+}
+
+.submit-btn {
+    background-color: rgb(251, 202, 53);
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.submit-btn:hover {
+    background-color: rgb(227, 184, 52);
+}

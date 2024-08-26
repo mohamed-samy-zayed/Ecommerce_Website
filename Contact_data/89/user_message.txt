@@ -1,0 +1,11 @@
+Real User INFO: 
+	Date and Time: 2024-02-09 02:32:46
+	User Real ID From Session: 89
+	User Real Name From Session: mohamed alsaeed
+	User Real Email From Session: mohamedalqemary@gmail.com
+
+User Message: 
+	Name: Mohamed Gamil
+	Email: mmm845162@gmail.com
+	Message:
+		mmmmmmnnnnnnn

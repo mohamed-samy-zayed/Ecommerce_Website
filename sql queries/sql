@@ -1,0 +1,188 @@
+-- Connect to the furniture database
+USE furniture;
+
+-- Create an empty floor_spotlight table based on the structure of the men table
+CREATE TABLE IF NOT EXISTS wall_spotlight AS
+SELECT * FROM furniture.floor_spotlight WHERE 1=0;
+
+-- Insert data into the existing floor_spotlight table
+INSERT INTO wall_spotlight
+SELECT * FROM furniture.floor_spotlight;
+
+
+-----------------------------------------------------------------
+UPDATE wall_spotlight SET name = "Wall Spotlight";
+
+-----------------------------------------------------------------
+-- Connect to the furniture database
+USE furniture;
+
+-- Update the 'name' column in the floor_spotlight table
+UPDATE wall_spotlight
+SET `floor-spotlight` = "Wall Spotlight";
+
+
+-----------------------------------------------------------------
+-- Connect to the furniture database
+USE furniture;
+
+-- Create an empty floor_spotlight table based on the structure of the men table
+CREATE TABLE IF NOT EXISTS wall_spotlight AS
+SELECT * FROM furniture.floor_spotlight WHERE 1=0;
+
+-- Insert data into the existing floor_spotlight table
+INSERT INTO wall_spotlight
+SELECT * FROM furniture.floor_spotlight;
+-----------------------------------------------------------------
+-- Connect to the furniture database
+USE furniture;
+
+-- Update the 'img_url' column in the floor_spotlight table
+UPDATE floor_spotlight
+SET img_url = CONCAT('http://localhost/all/project/ecommerce/img/furniture/spotlight/floor-spotlight/', id, '.jpg');
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+                            accessories database
+-------------------------------------------------------------------------------------------
+-- Create the database
+CREATE DATABASE IF NOT EXISTS accessories;
+USE accessories;
+
+-- Create the table men_watches
+CREATE TABLE men_watches (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    brand ENUM('casual', 'classic', 'premium', 'smart', 'sport'),
+    price DECIMAL(10, 2) DEFAULT 650.00,
+    old_price DECIMAL(10, 2) DEFAULT 899.00,
+    img_url VARCHAR(255),
+    color VARCHAR(255),
+    category VARCHAR(255) DEFAULT 'men_watches',
+    kind VARCHAR(255) DEFAULT 'accessories',
+    type VARCHAR(255) DEFAULT 'men'
+);
+
+-- Insert data into the table
+INSERT INTO men_watches (brand, img_url) VALUES
+('casual', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/casual/1.jpg'),
+('casual', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/casual/2.jpg'),
+('casual', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/casual/3.jpg'),
+('casual', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/casual/4.jpg'),
+('casual', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/casual/5.jpg'),
+('casual', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/casual/6.jpg'),
+('casual', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/casual/7.jpg'),
+('casual', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/casual/8.jpg'),
+('casual', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/casual/9.jpg'),
+('casual', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/casual/10.jpg'),
+('casual', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/casual/11.jpg'),
+('casual', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/casual/12.jpg'),
+('casual', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/casual/13.jpg'),
+('casual', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/casual/14.jpg'),
+('casual', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/casual/15.jpg'),
+('casual', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/casual/16.jpg'),
+('casual', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/casual/17.jpg'),
+('casual', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/casual/18.jpg'),
+('casual', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/casual/19.jpg'),
+('casual', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/casual/20.jpg'),
+('casual', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/casual/21.jpg'),
+-- ... Repeat the above line for 18 more rows with 'casual'
+
+('classic', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/classic/1.jpg'),
+('classic', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/classic/2.jpg'),
+('classic', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/classic/4.jpg'),
+('classic', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/classic/5.jpg'),
+('classic', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/classic/6.jpg'),
+('classic', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/classic/7.jpg'),
+('classic', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/classic/8.jpg'),
+('classic', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/classic/9.jpg'),
+('classic', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/classic/10.jpg'),
+('classic', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/classic/11.jpg'),
+('classic', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/classic/12.jpg'),
+('classic', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/classic/13.jpg'),
+('classic', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/classic/14.jpg'),
+('classic', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/classic/15.jpg'),
+('classic', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/classic/16.jpg'),
+('classic', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/classic/17.jpg'),
+('classic', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/classic/18.jpg'),
+('classic', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/classic/19.jpg'),
+('classic', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/classic/20.jpg'),
+('classic', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/classic/21.jpg'),
+-- ... Repeat the above line for 18 more rows with 'classic'
+
+('premium', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/premium/1.jpg'),
+('premium', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/premium/2.jpg'),
+('premium', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/premium/3.jpg'),
+('premium', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/premium/4.jpg'),
+('premium', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/premium/5.jpg'),
+('premium', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/premium/6.jpg'),
+('premium', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/premium/7.jpg'),
+('premium', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/premium/8.jpg'),
+('premium', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/premium/9.jpg'),
+('premium', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/premium/10.jpg'),
+('premium', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/premium/11.jpg'),
+('premium', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/premium/12.jpg'),
+('premium', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/premium/13.jpg'),
+('premium', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/premium/14.jpg'),
+('premium', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/premium/15.jpg'),
+('premium', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/premium/16.jpg'),
+('premium', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/premium/17.jpg'),
+('premium', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/premium/18.jpg'),
+('premium', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/premium/19.jpg'),
+('premium', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/premium/20.jpg'),
+('premium', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/premium/21.jpg'),
+-- ... Repeat the above line for 18 more rows with 'premium'
+
+('smart', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/smart/1.jpg'),
+('smart', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/smart/2.jpg'),
+('smart', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/smart/3.jpg'),
+('smart', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/smart/4.jpg'),
+('smart', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/smart/5.jpg'),
+('smart', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/smart/6.jpg'),
+('smart', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/smart/7.jpg'),
+('smart', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/smart/8.jpg'),
+('smart', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/smart/9.jpg'),
+('smart', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/smart/10.jpg'),
+('smart', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/smart/11.jpg'),
+('smart', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/smart/12.jpg'),
+('smart', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/smart/13.jpg'),
+('smart', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/smart/14.jpg'),
+('smart', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/smart/15.jpg'),
+('smart', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/smart/16.jpg'),
+('smart', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/smart/17.jpg'),
+('smart', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/smart/18.jpg'),
+('smart', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/smart/19.jpg'),
+('smart', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/smart/20.jpg'),
+('smart', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/smart/21.jpg'),
+-- ... Repeat the above line for 18 more rows with 'smart'
+
+('sport', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/sport/1.jpg'),
+('sport', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/sport/2.jpg'),
+('sport', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/sport/3.jpg'),
+('sport', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/sport/4.jpg'),
+('sport', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/sport/5.jpg'),
+('sport', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/sport/6.jpg'),
+('sport', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/sport/7.jpg'),
+('sport', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/sport/8.jpg'),
+('sport', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/sport/9.jpg'),
+('sport', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/sport/10.jpg'),
+('sport', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/sport/11.jpg'),
+('sport', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/sport/12.jpg'),
+('sport', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/sport/13.jpg'),
+('sport', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/sport/14.jpg'),
+('sport', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/sport/15.jpg'),
+('sport', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/sport/16.jpg'),
+('sport', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/sport/17.jpg'),
+('sport', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/sport/18.jpg'),
+('sport', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/sport/19.jpg'),
+('sport', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/sport/20.jpg'),
+('sport', 'http://localhost/all/project/ecommerce/img/accessories/men/watches/sport/21.jpg');
+-- ... Repeat the above line for 18 more rows with 'sport';
+
+-------------------------------------------------------------------------------------------
+
+1 database
+2 API
+3 Frontend
+4 js
+
+
+style="width: 300px; height:300px; "

@@ -1,0 +1,90 @@
+/* body {
+            /*
+            background-image: url("../IMGS/bg4.jpg");
+            color: white;
+            font-size: xx-large;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            
+        } */
+
+        #Details {
+            text-align: center;
+            margin-top: -25px;
+        }
+
+        button {
+            margin-top: 20px;
+            background-color: rgb(251, 202, 53);
+            height: 35px;
+            border-radius: 15px;
+            color: black;
+            font-size: medium;
+            text-align: center;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: rgb(227, 184, 52);
+        }
+
+        #uploadForm {
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        input[type="file"] {
+            margin-bottom: 15px;
+        }
+
+        input[type="submit"] {
+            background-color: rgb(251, 202, 53);
+            border: none;
+            border-radius: 8px;
+            padding: 10px 20px;
+            color: black;
+            font-size: medium;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: rgb(227, 184, 52);
+        }
+        #up_email
+        {
+            position: absolute;
+                top: 280px;
+                left: 200px;
+            width: 200px;
+            /* margin-left: -350px;
+            margin-top: -15px; */
+        }
+        #up_pass
+        {
+            position: absolute;
+                top: 340px;
+                left: 200px;
+                width: 200px;
+            }
+        #up_photo
+        {
+            position: absolute;
+                left: 200px;
+                top: 400px;
+        /* margin-top: 50px; */
+            width: 200px;
+        }
+        #user_id,#username,#user_email
+        {
+            font-size: x-large;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+        }

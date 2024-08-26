@@ -1,0 +1,27 @@
+Real User INFO: 
+	Date and Time: 2024-01-26 19:04:06
+	User Real ID From Session: 55
+	User Real Name From Session: Mohamed Gamil
+	User Real Email From Session: mmm845162@gmail.com
+
+User Order Information: 
+	Username: Mohamed Gamil
+	Phone Number: 01208596572
+	Location: عزبه سيدي مسعود / الروضه/ بركه السبع/ المنوفيه
+
+Number of Products: 1
+
+Total Price: [ $650 ]
+
+Delivery Price: [ $30 ]
+
+Final Price: [ $685 ]
+
+Product 1 Information:
+	Product Database: accessories
+	Product Table: men_watches
+	Product ID: 30
+	Size: undefined
+	Color: The_Same_Color
+	Count: 1
+	Product Link : http://localhost/all/project/ecommerce/detail.php?id=30&category=men_watches&kind=accessories&type=classic&size=undefined&color=The_Same_Color&quantity=1

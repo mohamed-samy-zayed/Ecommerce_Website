@@ -1,0 +1,131 @@
+UPDATE jackets SET img_url = 'https://eg.diesel.com/media/amasty/amoptmobile/wysiwyg/A06268_0AFAA_45C-1.jpg' WHERE id = 1;
+UPDATE jackets SET img_url = 'https://eg.diesel.com/media/amasty/amoptmobile/wysiwyg/A06268_0AFAA_45C-1_jpg.webp' WHERE id = 2;
+UPDATE jackets SET img_url = 'https://eg.diesel.com/media/amasty/amoptmobile/wysiwyg/wysiwyg/A11084_0NFAE_141-1_jpg.jpeg' WHERE id = 3;
+UPDATE jackets SET img_url = 'https://eg.diesel.com/media/amasty/amoptmobile/wysiwyg/wysiwyg/A11084_0NFAE_141-1_jpg_jpeg.webp' WHERE id = 4;
+UPDATE jackets SET img_url = 'https://eg.diesel.com/media/amasty/amoptmobile/wysiwyg/wysiwyg/y03073_p0423_h9509-2_jpg_1.jpg' WHERE id = 5;
+UPDATE jackets SET img_url = 'https://eg.diesel.com/media/amasty/amoptmobile/wysiwyg/wysiwyg/y03073_p0423_h9509-2_jpg_1_jpg.webp' WHERE id = 6;
+UPDATE jackets SET img_url = 'https://eg.diesel.com/media/amasty/amoptmobile/wysiwyg/Y03074_P0423_H9811-2.jpg' WHERE id = 7;
+UPDATE jackets SET img_url = 'https://eg.diesel.com/media/amasty/amoptmobile/wysiwyg/Y03074_P0423_H9811-2_jpg.webp' WHERE id = 8;
+UPDATE jackets SET img_url = 'https://eg.diesel.com/media/amasty/amopttablet/wysiwyg/A06268_0AFAA_45C-1_jpg.webp' WHERE id = 9;
+UPDATE jackets SET img_url = 'https://eg.diesel.com/media/amasty/amopttablet/wysiwyg/wysiwyg/A11084_0NFAE_141-1_jpg.jpeg' WHERE id = 10;
+UPDATE jackets SET img_url = 'https://eg.diesel.com/media/amasty/amopttablet/wysiwyg/wysiwyg/A11084_0NFAE_141-1_jpg_jpeg.webp' WHERE id = 11;
+UPDATE jackets SET img_url = 'https://eg.diesel.com/media/amasty/amopttablet/wysiwyg/wysiwyg/y03073_p0423_h9509-2_jpg_1.jpg' WHERE id = 12;
+UPDATE jackets SET img_url = 'https://eg.diesel.com/media/amasty/amopttablet/wysiwyg/wysiwyg/y03073_p0423_h9509-2_jpg_1_jpg.webp' WHERE id = 13;
+UPDATE jackets SET img_url = 'https://eg.diesel.com/media/amasty/amopttablet/wysiwyg/Y03074_P0423_H9811-2.jpg' WHERE id = 14;
+UPDATE jackets SET img_url = 'https://eg.diesel.com/media/amasty/amopttablet/wysiwyg/Y03074_P0423_H9811-2_jpg.webp' WHERE id = 15;
+UPDATE jackets SET img_url = 'https://eg.diesel.com/media/amasty/webp/wysiwyg/A06268_0AFAA_45C-1_jpg.webp' WHERE id = 16;
+UPDATE jackets SET img_url = 'https://eg.diesel.com/media/amasty/webp/wysiwyg/Women_Watches_jpg.webp' WHERE id = 17;
+UPDATE jackets SET img_url = 'https://eg.diesel.com/media/amasty/webp/wysiwyg/wysiwyg/A11084_0NFAE_141-1_jpg_jpeg.webp' WHERE id = 18;
+UPDATE jackets SET img_url = 'https://eg.diesel.com/media/amasty/webp/wysiwyg/wysiwyg/y03073_p0423_h9509-2_jpg_1_jpg.webp' WHERE id = 19;
+UPDATE jackets SET img_url = 'https://eg.diesel.com/media/amasty/webp/wysiwyg/Y03074_P0423_H9811-2_jpg.webp' WHERE id = 20;
+UPDATE jackets SET img_url = 'https://eg.diesel.com/media/wysiwyg/A06268_0AFAA_45C-1.jpg' WHERE id = 21;
+UPDATE jackets SET img_url = 'https://eg.diesel.com/media/wysiwyg/Women_Watches.jpg' WHERE id = 22;
+UPDATE jackets SET img_url = 'https://eg.diesel.com/media/wysiwyg/wysiwyg/A11084_0NFAE_141-1_jpg.jpeg' WHERE id = 23;
+UPDATE jackets SET img_url = 'https://eg.diesel.com/media/wysiwyg/wysiwyg/y03073_p0423_h9509-2_jpg_1.jpg' WHERE id = 24;
+UPDATE jackets SET img_url = 'https://eg.diesel.com/media/wysiwyg/Y03074_P0423_H9811-2.jpg' WHERE id = 25;
+
+
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/1.jpg' WHERE id = 1;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/2.jpg' WHERE id = 2;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/3.jpg' WHERE id = 3;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/4.jpg' WHERE id = 4;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/5.jpg' WHERE id = 5;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/6.jpg' WHERE id = 6;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/7.jpg' WHERE id = 7;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/8.jpg' WHERE id = 8;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/9.jpg' WHERE id = 9;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/10.jpg' WHERE id = 10;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/11.jpg' WHERE id = 11;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/12.jpg' WHERE id = 12;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/13.jpg' WHERE id = 13;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/14.jpg' WHERE id = 14;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/15.jpg' WHERE id = 15;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/16.jpg' WHERE id = 16;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/17.jpg' WHERE id = 17;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/18.jpg' WHERE id = 18;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/19.jpg' WHERE id = 19;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/20.jpg' WHERE id = 20;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/21.jpg' WHERE id = 21;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/22.jpg' WHERE id = 22;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/23.jpg' WHERE id = 23;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/24.jpg' WHERE id = 24;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/25.jpg' WHERE id = 25;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/26.jpg' WHERE id = 26;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/27.jpg' WHERE id = 27;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/28.jpg' WHERE id = 28;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/29.jpg' WHERE id = 29;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/30.jpg' WHERE id = 30;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/30.jpg' WHERE id = 30;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/32.jpg' WHERE id = 32;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/32.jpg' WHERE id = 32;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/33.jpg' WHERE id = 33;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/34.jpg' WHERE id = 34;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/34.jpg' WHERE id = 34;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/35.jpg' WHERE id = 35;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/36.jpg' WHERE id = 36;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/37.jpg' WHERE id = 37;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/38.jpg' WHERE id = 38;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/39.jpg' WHERE id = 39;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/40.jpg' WHERE id = 40;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/41.jpg' WHERE id = 41;
+UPDATE jackets SET img_url = 'http://localhost/all/project/ecommerce/img/shoes/42.jpg' WHERE id = 42;
+
+
+
+http://localhost/all/project/ecommerce/img/shoes/1.jpg
+http://localhost/all/project/ecommerce/img/shoes/2.jpg
+http://localhost/all/project/ecommerce/img/shoes/3.jpg
+http://localhost/all/project/ecommerce/img/shoes/4.jpg
+http://localhost/all/project/ecommerce/img/shoes/5.jpg
+http://localhost/all/project/ecommerce/img/shoes/6.jpg
+http://localhost/all/project/ecommerce/img/shoes/7.jpg
+http://localhost/all/project/ecommerce/img/shoes/8.jpg
+http://localhost/all/project/ecommerce/img/shoes/9.jpg
+http://localhost/all/project/ecommerce/img/shoes/10.jpg
+http://localhost/all/project/ecommerce/img/shoes/11.jpg
+http://localhost/all/project/ecommerce/img/shoes/12.jpg
+http://localhost/all/project/ecommerce/img/shoes/13.jpg
+http://localhost/all/project/ecommerce/img/shoes/14.jpg
+http://localhost/all/project/ecommerce/img/shoes/15.jpg
+http://localhost/all/project/ecommerce/img/shoes/16.jpg
+http://localhost/all/project/ecommerce/img/shoes/17.jpg
+http://localhost/all/project/ecommerce/img/shoes/18.jpg
+http://localhost/all/project/ecommerce/img/shoes/19.jpg
+http://localhost/all/project/ecommerce/img/shoes/20.jpg
+http://localhost/all/project/ecommerce/img/shoes/21.jpg
+http://localhost/all/project/ecommerce/img/shoes/22.jpg
+http://localhost/all/project/ecommerce/img/shoes/23.jpg
+http://localhost/all/project/ecommerce/img/shoes/24.jpg
+http://localhost/all/project/ecommerce/img/shoes/25.jpg
+http://localhost/all/project/ecommerce/img/shoes/26.jpg
+http://localhost/all/project/ecommerce/img/shoes/27.jpg
+http://localhost/all/project/ecommerce/img/shoes/28.jpg
+http://localhost/all/project/ecommerce/img/shoes/29.jpg
+http://localhost/all/project/ecommerce/img/shoes/30.jpg
+http://localhost/all/project/ecommerce/img/shoes/30.jpg
+http://localhost/all/project/ecommerce/img/shoes/32.jpg
+http://localhost/all/project/ecommerce/img/shoes/32.jpg
+http://localhost/all/project/ecommerce/img/shoes/33.jpg
+http://localhost/all/project/ecommerce/img/shoes/34.jpg
+http://localhost/all/project/ecommerce/img/shoes/34.jpg
+http://localhost/all/project/ecommerce/img/shoes/35.jpg
+http://localhost/all/project/ecommerce/img/shoes/36.jpg
+http://localhost/all/project/ecommerce/img/shoes/37.jpg
+http://localhost/all/project/ecommerce/img/shoes/38.jpg
+http://localhost/all/project/ecommerce/img/shoes/39.jpg
+http://localhost/all/project/ecommerce/img/shoes/40.jpg
+http://localhost/all/project/ecommerce/img/shoes/41.jpg
+http://localhost/all/project/ecommerce/img/shoes/42.jpg
+
+-- Update colors for the specified IDs
+UPDATE t_shirts SET color = 'blue' WHERE id IN (1,);
+UPDATE t_shirts SET color = 'white' WHERE id IN (1, 3, 4, 5, 6, 11, 16, 19, 20, 21, 25, 27, 32, 35, 40);
+UPDATE t_shirts SET color = 'black' WHERE id IN (8, 9, 10, 15, 18, 23, 28, 30, 36, 39, 42, 43, 44);
+UPDATE t_shirts SET color = 'brown' WHERE id IN (17, 22, 45);
+UPDATE t_shirts SET color = 'red' WHERE id IN (29, 33, 34);
+UPDATE t_shirts SET color = 'green' WHERE id IN (29, 33, 34);
+
+
+online payment ===> back + front
+account        ===> front
+details        ===> back + front

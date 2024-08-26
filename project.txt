@@ -1,0 +1,198 @@
+project:
+    frontend
+    backend
+    api
+    database
+----------------------------
+databases
+    9 databse ==>    tables ==>    columns & rows ==>    Data
+    databses:
+        accessories:
+            men_glasses
+            men_hand_bag
+            men_watches
+            women_glasses
+            women_hand_bag
+            women_watches
+        admins:
+            admin
+        camera:
+            camera
+        child:
+            child
+            jackets
+            pants
+            shirts
+            shoes
+            t_shirts
+        computers:
+            laptops
+            computers
+        furniture:
+            alarm_watch
+            carpets
+            chairs
+            electric
+            fan
+            floor_spotlight
+            roof_spotlight
+            special_watch
+            tables
+            table_spotlight
+            table_watch
+            wall_spotlight
+            wall_watch
+        men:
+            jackets
+            men
+            pants
+            shirts
+            shoes
+            t_shirts
+        users:
+            user
+        women:
+            jackets
+            men
+            pants
+            shirts
+            shoes
+            t_shirts
+----------------------------
+API:
+    Describtion:
+        it could [Return, Add, change, delete] [specific Information from database]
+    Pages:
+        accessories
+        account
+        admin
+        camera
+        checkPage
+        clothes
+        computers
+        details
+        furniture
+        home
+        search
+----------------------------
+static
+    header
+    footer
+dynamic
+    other body  [الحشو]
+----------------------------
+Pages:
+    admin:
+        login
+        logout
+        index.php       ===>    dashboard control
+        adminControl    ===>    treate with database
+    
+    users:
+        login
+        signup
+        logout
+        home
+        account
+        details
+        Confirm Order Page
+        Search Page
+        contact us
+
+    Categories:
+        furniture:
+            main page:
+                Chairs
+                Tables
+                Fan
+                Alarm Watches:
+                Wall Watches
+                Alarm Watches
+                Table Watches
+                Special Watches
+                Spotlights:
+                Floor Spotlight
+                Wall Spotlight
+                Roof Spotlight
+                Table Spotlight
+                Carpets
+                Electric Things
+
+        Clothes
+            main page:
+                Men:
+                Jackets
+                T-Shirts
+                Pants
+                Shirts
+                Shoes
+                Women:
+                Jackets
+                T-Shirts
+                Pants
+                Shirts
+                Shoes
+                Children:
+                Jackets
+                T-Shirts
+                Shirts
+                Pants
+                Shoes
+
+        Accessories:
+            Men:
+            Watches
+                Classic
+                Casual
+                Smart
+                Sport
+                Premium
+            Glasses
+            Hand Bag
+            Women:
+            Watches
+                Classic
+                Casual
+                Smart
+                Sport
+                Premium
+            Glasses
+            Hand Bag
+            Children:
+            Watches
+                Classic
+                Casual
+                Smart
+                Sport
+                Premium
+            Glasses
+            Hand Bag
+
+        Camera
+
+        Computers:
+            Laptops
+            Monitors
+            Computer Accessories
+----------------------------
+Security Tips:
+    CSRF Attack
+        check ==> Referer Header ==> Link
+
+    information disclosure
+        Origion Header
+        Session Data
+        api token
+            401 Unauthorized
+
+    sql injection Attack
+        parametrized query
+            separate queries to parameters
+
+    XSS Attack
+        html encode
+        match and replace
+        srtreplace
+
+    username and password enumeration
+        error message

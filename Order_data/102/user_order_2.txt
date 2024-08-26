@@ -1,0 +1,45 @@
+Real User INFO: 
+	Date and Time: 2024-06-20 00:16:38
+	User Real ID From Session: 102
+	User Real Name From Session: mohamed
+	User Real Email From Session: mmm845162@gmail.com
+
+User Order Information: 
+	Username: Mohamed Gamil
+	Phone Number: 01006266457
+	Location: london
+
+Number of Products: 3
+
+Total Price: [ $2170 ]
+
+Delivery Price: [ $30 ]
+
+Final Price: [ $2205 ]
+
+Product 1 Information:
+	Product Database: men
+	Product Table: jackets
+	Product ID: 43
+	Size: L
+	Color: The_Same_Color
+	Count: 2
+	Product Link : http://localhost/all/project/ecommerce/detail.php?id=43&category=jackets&kind=men&size=L&color=The_Same_Color&quantity=2
+
+Product 2 Information:
+	Product Database: accessories
+	Product Table: men_watches
+	Product ID: 63
+	Size: undefined
+	Color: The_Same_Color
+	Count: 1
+	Product Link : http://localhost/all/project/ecommerce/detail.php?id=63&category=men_watches&kind=accessories&type=smart&size=undefined&color=The_Same_Color&quantity=1
+
+Product 3 Information:
+	Product Database: accessories
+	Product Table: men_watches
+	Product ID: 64
+	Size: undefined
+	Color: The_Same_Color
+	Count: 2
+	Product Link : http://localhost/all/project/ecommerce/detail.php?id=64&category=men_watches&kind=accessories&type=smart&size=undefined&color=The_Same_Color&quantity=2

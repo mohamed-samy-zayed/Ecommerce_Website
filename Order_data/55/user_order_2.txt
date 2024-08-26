@@ -1,0 +1,72 @@
+Real User INFO: 
+	Date and Time: 2024-01-23 02:24:12
+	User Real ID From Session: 55
+	User Real Name From Session: Mohamed Gamil
+	User Real Email From Session: mmm845162@gmail.com
+
+User Order Information: 
+	Username: Mohamed Gamil
+	Phone Number: 01208596572
+	Location: عزبه سيدي مسعود / الروضه/ بركه السبع/ المنوفيه
+
+Number of Products: 6
+
+Total Price: [ $1012 ]
+
+Delivery Price: [ $30 ]
+
+Final Price: [ $1042 ]
+
+Product 1 Information:
+	Product Database: men
+	Product Table: jackets
+	Product ID: 1
+	Size: M
+	Color: black
+	Count: 1
+	Product Link : http://localhost/all/project/ecommerce/detail.php?id=1&category=jackets&kind=men&size=M&color=black&quantity=1
+
+Product 2 Information:
+	Product Database: men
+	Product Table: jackets
+	Product ID: 1
+	Size: M
+	Color: black
+	Count: 1
+	Product Link : http://localhost/all/project/ecommerce/detail.php?id=1&category=jackets&kind=men&size=M&color=black&quantity=1
+
+Product 3 Information:
+	Product Database: men
+	Product Table: jackets
+	Product ID: 1
+	Size: M
+	Color: black
+	Count: 2
+	Product Link : http://localhost/all/project/ecommerce/detail.php?id=1&category=jackets&kind=men&size=M&color=black&quantity=2
+
+Product 4 Information:
+	Product Database: furniture
+	Product Table: wall_watch
+	Product ID: 3
+	Size: S
+	Color: black
+	Count: 2
+	Product Link : http://localhost/all/project/ecommerce/detail.php?id=3&category=wall_watch&kind=furniture&size=S&color=black&quantity=2
+
+Product 5 Information:
+	Product Database: men
+	Product Table: jackets_m
+	Product ID: 1
+	Size: M
+	Color: black
+	Count: 1
+	Product Link : http://localhost/all/project/ecommerce/detail.php?id=1&category=jackets_m&kind=men&size=M&color=black&quantity=1
+
+Product 6 Information:
+	Product Database: women
+	Product Table: shirts_w
+	Product ID: 2
+	Size: M
+	Color: black
+	Count: 2
+	Product Link : http://localhost/all/project/ecommerce/detail.php?id=2&category=shirts_w&kind=women&size=M&color=black&quantity=2
